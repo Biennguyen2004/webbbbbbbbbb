@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <!--  -->
+    <link href="https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <script src="Cart.js"></script>
+    <!-- <script src="Basic.js"></script> -->
+    <title>Hỗ trợ</title>
+</head>
+<style>
+    .ImgContact{
+        margin-left: 9rem;
+        margin-top: 6rem;
+    }
+    h2{
+        text-align: center;
+        margin-top: 30px;
+        font-style:initial;
+    }
+    /* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #333;
+    line-height: 1.6;
+}
+
+h1, h2 {
+    color: #2c3e50;
+}
+
+a {
+    text-decoration: none;
+    color: #3498db;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+header {
+    background: linear-gradient(90deg, #3498db, #8e44ad);
+    color: white;
+    text-align: center;
+    padding: 9rem;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+.contact-container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-details ul {
+    padding: 1rem 0;
+}
+
+.contact-details li {
+    margin-bottom: 0.5rem;
+}
+
+.contact-form {
+    margin-top: 2rem;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+.contact-form input, 
+.contact-form textarea {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.contact-form .btn {
+    background: #3498db;
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background 0.3s;
+}
+
+.contact-form .btn:hover {
+    background: #2980b9;
+}
+
+.social-media ul {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.footer {
+    text-align: center;
+    background: #2c3e50;
+    color: white;
+    padding: 1rem 0;
+}
+
+</style>
+<body>
+    <div class="Top">
+      
+        <nav class="navbar navbar-expand-lg fixed-top">
+          <div class="container-fluid" style="padding: 0px 1rem 0px 2rem;">
+            <a class="navbar-brand" href="Main.html"><img  src="Images/Menu/logo_2024_new_den_44d720a5522f430b8f06d5a8d6709f6a.svg" alt=""></a>
+            <div class="offcanvas offcanvas-end " tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+              <div class="offcanvas-header ">
+                <h5 class="offcanvas-title" id="offcanvasNavbarLabel">MENU</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body ">
+                <ul class="navbar-nav   flex-grow-1 pe-3">
+                  <li class="nav-item">
+                    <a class="nav-link "  aria-current="page" href="Main.html">Home</a>
+                  </li>
+                  <li class="nav-item active">
+                    <a class="nav-link " href="home.html">MAN</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="Women.html">Woman</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="Child.html">Child</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                  </li>
+                  <!-- Dropdown -->
+                </ul>
+              </div>
+              
+            </div>
+            
+            
+            <div class="container-input align-items-center ">
+              <input type="search" placeholder="Search" name="text" class="input">
+              <svg fill="#000000" width="20px" height="20px" viewBox="0 0 1920 1920" xmlns="http://www.w3.org/2000/svg">
+                <path d="M790.588 1468.235c-373.722 0-677.647-303.924-677.647-677.647 0-373.722 303.925-677.647 677.647-677.647 373.723 0 677.647 303.925 677.647 677.647 0 373.723-303.924 677.647-677.647 677.647Zm596.781-160.715c120.396-138.692 193.807-319.285 193.807-516.932C1581.176 354.748 1226.428 0 790.588 0S0 354.748 0 790.588s354.748 790.588 790.588 790.588c197.647 0 378.24-73.411 516.932-193.807l516.028 516.142 79.963-79.963-516.142-516.028Z" fill-rule="evenodd"></path>
+             </svg>
+            </div> 
+            <div class="User" style="margin-left: 1.2%;">
+              <a href=""  role="button" id="dropdownUser" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="Images/Menu/user-solid-24.png" alt=""></a>
+              <ul class="User-dropdown" aria-labelledby="dropdownUser">
+                <li class="User-item"><a href="Profile.html" id="profileLink" >Profile</a></li>
+                <li class="User-item"><a href="index.html" id=" logoutLink">Log out</a></li>
+              </ul>
+            </div>
+  
+            <div class="Cart " style="margin-left: 1.2%;">
+                <a class="Cart1" href=""><img src="Images/Menu/shopping-cart.png" alt=""></a>
+            </div> 
+            <button class="navbar-toggler align-items-center flex-md-row-reverse"  type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </div>
+        </nav>
+      </div>
+
+
+
+    
+
+      <header class="header">
+        <h1>Contact Us</h1>
+        <p>Have questions about our products or your order? We're here to help!</p>
+    </header>
+    
+    <main class="contact-container">
+        <section class="contact-details">
+            <h2>Reach Out to Us</h2>
+            <p>Our customer support team is available Monday to Friday, 9 AM - 6 PM.</p>
+            <ul>
+                <li><strong>Email:</strong> support@BILUXURY.com</li>
+                <li><strong>Phone:</strong> +1 123 456 7890</li>
+                <li><strong>Address:</strong> 456 Fashion Avenue, Los Angeles, CA, USA</li>
+            </ul>
+        </section>
+
+        <section class="contact-form">
+            <h2>Send Us a Message</h2>
+            <form action="#" method="POST">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Your Full Name" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Your Email Address" required>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" placeholder="Write your message here" required></textarea>
+
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </section>
+
+        <section class="social-media">
+            <h2>Follow Us</h2>
+            <p>Stay updated with our latest collections and offers:</p>
+            <ul>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">Twitter</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2024 BILUXURY . All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>
